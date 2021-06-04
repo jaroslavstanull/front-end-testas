@@ -1,0 +1,45 @@
+main {
+    display: inline-block;
+    width: 800px;
+
+}
+.left-column {
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    
+
+
+}
+h1 {
+    display: inline;
+    color: 4254DF;
+    background-color: blueviolet;
+ 
+
+
+}
+h2{
+    display: inline;
+    color: 213054;
+    background-color: brown;
+
+
+}
+p{
+    display: inline;
+    color: 8B8C97;
+    background-color: burlywood;
+   
+}
+form{
+    display: inline;
+    background-color: darkslateblue;
+
+}
+.right-column{
+    width: 50%;
+    float: right;
+}

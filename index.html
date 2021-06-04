@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>front-end-testas</title>
     <link rel="stylesheet" href="./main/main.css">
+    <link rel="stylesheet" href="./main/form.css">
 </head>
 <body>
     <div class="left-column">
@@ -13,7 +14,15 @@
         <h2>Artificial Intelligence DRiving Results For The Travel Industry.</h2>
         <p>Welcome back. Please login to your account</p>
         <div>
-            <form action="#">Registration</form>
+            <form class="form">
+                <div class="form-row">
+                    <label for="username">Email adress</label>
+                    <input id="username" placeholder="Email adress" type="text" required>
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password</label>
+                    <input id="pass" placeholder="Password" type="password" required>
+                </div>
         </div>
         <button>Remember me</button>
         <a href="#">Forget Password?</a>
@@ -31,3 +40,4 @@
     </div>
 </body>
 </html>
+
